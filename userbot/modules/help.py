@@ -25,11 +25,11 @@ async def help(event):
             await event.delete()
     else:
         await event.edit(f"**╭━━━━━━━━━━━━━━━━━━━━━╮**\
-            \n┣ 𐅍 Help for [🔥XBOT-LINCXLN🔥]   ᐊ\
+            \n┣ 𐅍 Help For [🔥XBOT-LINCXLN🔥]  ᐊ\
             \n╰━━━━━━━━━━━━━━━━━━━━━╯ \
             \n╭━━━━━━━━━━━━━━━━━━━━━╮\
             \n┣ 𐅍 Melihat Lengkap Command\
-            \n┣ 𐅍 Contoh: .help <nama module>\
+            \n┣ 𐅍 Contoh: .help <Nama Module>\
             \n┣ 𐅍 Modules Aktif: {len(modules)}\
            \n╰━━━━━━━━━━━━━━━━━━━━━╯")
         string = ""
