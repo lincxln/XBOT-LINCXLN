@@ -25,17 +25,17 @@ async def help(event):
             await event.delete()
     else:
         await event.edit(f"**╭━━━━━━━━━━━━━━━━━━━━━╮**\
-            \n┣   Help for [🔥XBOT-LINCXLN🔥]   ᐊ\
+            \n┣ 𐅍 Help for [🔥XBOT-LINCXLN🔥]   ᐊ\
             \n╰━━━━━━━━━━━━━━━━━━━━━╯ \
             \n╭━━━━━━━━━━━━━━━━━━━━━╮\
-            \n┣   Melihat Lengkap Command\
-            \n┣   Contoh: .help <nama module>\
-            \n┣   Modules Aktif: {len(modules)}\
+            \n┣ 𐅍 Melihat Lengkap Command\
+            \n┣ 𐅍 Contoh: .help <nama module>\
+            \n┣ 𐅍 Modules Aktif: {len(modules)}\
            \n╰━━━━━━━━━━━━━━━━━━━━━╯")
         string = ""
         for i in CMD_HELP:
             string += "`" + str(i)
-            string += "`\t\n⫽  "
+            string += "`\t\n𐘃  "
         await event.reply(f"⫽{string}End Of Modules"
                           "\n╾───────────────────────╼")
         await asyncio.sleep(100)
