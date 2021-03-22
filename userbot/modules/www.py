@@ -91,13 +91,13 @@ async def pingme(pong):
     await pong.edit("**᳄᳅ PONG!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"***𝑿𝑩𝑶𝑻 𝑳𝑰𝑵𝑪𝑿𝑳𝑵**\n"
+    await pong.edit(f"**᳄᳅ 𝑿𝑩𝑶𝑻 𝑳𝑰𝑵𝑪𝑿𝑳𝑵 ᳄᳅**\n"
                     f"┌╼════════════════════╾\n"
-                    f"├**Pong Ms¥**\n"
+                    f"├ ᳄᳅ Pong Ms¥**\n"
                     f"├╼════════════════════╾ \n"
-                    f"├**Pinger** : %sms\n"
+                    f"├ ᳄᳅ Pinger** : %sms\n"
                     f"├╼════════════════════╾\n"
-                    f"└**Bot Uptime** : {uptime} 🕛" % (duration))
+                    f"└ ᳄᳅ : {uptime} 🕛" % (duration))
                   
 
 @register(outgoing=True, pattern="^.pong$")
