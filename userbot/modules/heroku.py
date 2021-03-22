@@ -180,8 +180,8 @@ async def dyno_usage(dyno):
 
             await dyno.edit(
                 "**Dyno Usage**:\n\n╭━━━━━━━━━━━━━━━━━━━━╮\n\n\n"
-                f"     XBOT-LINCXLN"
-                f"\n\n╰━━━━━━━━━━━━━━━━━━━━╯"
+                f"                 XBOT-LINCXLN"
+                f"\n\n╰━━━━━━━━━━━━━━━━━━━━╯\n"
                 f" ❁ **Penggunaan Dyno** **{app.name}**:\n"
                 f"    •**{AppHours} jam - "
                 f"{AppMinutes} menit - {AppPercentage}%**"
