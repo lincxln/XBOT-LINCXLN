@@ -108,7 +108,7 @@ async def pingme(pong):
     await pong.edit("`gass!`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit(f"`**ㅤㅤㅤㅤㅤㅤ≛ Ping ≛** \nㅤ**▰▱▰▱▰▱▰▱▰▱▰▱▰**  \n╭╼═════════════════╾╮├╼%sms`\n╰╼═════════════════╾╯" % (duration))
+    await pong.edit(f"`**ㅤㅤㅤㅤㅤㅤ≛ Ping ≛** \nㅤ**▰▱▰▱▰▱▰▱▰▱▰▱▰**  \n╭╼═════════════════╾╮\nㅤㅤ%sms`\n╰╼═════════════════╾╯" % (duration))
 
 
 @register(outgoing=True, pattern="^.pink$")
