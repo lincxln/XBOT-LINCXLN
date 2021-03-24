@@ -24,16 +24,16 @@ from userbot.events import register
 
 
 KANGING_STR = [
-    "Wao.,Bagus Nih...Colong Dulu Yekan..",
-    "Colong Sticker dulu yee kan",
-    "ehh, mantep nih.....aku colong ya...",
-    "Ini Sticker aku colong yaa\nDUARR!",
-    "leh ugha ni Sticker\nColong ahh~",
-    "Pim Pim Pom!!!\nni Sticker punya aing sekarang hehe",
-    "Colong lagi yee kan.....",
-    "COLONG TROSS!!!",
-    "Bolehkah saya colong ni sticker\nau ah colong aja hehe",
-    "Colong Sticker ahh.....",
+    "ᴡᴀᴏ.,ʙᴀɢᴜꜱ ɴɪʜ...ᴄᴏʟᴏɴɢ ᴅᴜʟᴜ ʏᴇᴋᴀɴ..",
+    "𝕮𝖔𝖑𝖔𝖓𝖌 𝕾𝖙𝖎𝖈𝖐𝖊𝖗 𝖉𝖚𝖑𝖚 𝖞𝖊𝖊 𝖐𝖆𝖓",
+    "𝕖𝕙𝕙, 𝕞𝕒𝕟𝕥𝕖𝕡 𝕟𝕚𝕙.....𝕒𝕜𝕦 𝕔𝕠𝕝𝕠𝕟𝕘 𝕪𝕒...",
+    "𝙄𝙣𝙞 𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝙖𝙠𝙪 𝙘𝙤𝙡𝙤𝙣𝙜 𝙮𝙖𝙖\n𝘿𝙐𝘼𝙍𝙍!",
+    "𝚕𝚎𝚑 𝚞𝚐𝚑𝚊 𝚗𝚒 𝚂𝚝𝚒𝚌𝚔𝚎𝚛\nᶜᵒˡᵒⁿᵍ ᵃʰʰ~",
+    "Pιɱ Pιɱ Pσɱ!!!\n🄽🄸 🅂🅃🄸🄲🄺🄴🅁 🄿🅄🄽🅈🄰 🄰🄸🄽🄶 🅂🄴🄺🄰🅁🄰🄽🄶 🄷🄴🄷🄴",
+    "̷C̷o̷l̷o̷n̷g ̷l̷a̷g̷i ̷y̷e̷e ̷k̷a̷n.....",
+    "̷𝕮𝖔𝖑𝖔𝖓𝖌 𝕿𝖊𝖗𝖔𝖘𝖘",
+    "★彡[ʙᴏʟᴇʜᴋᴀʜ ꜱᴀʏᴀ ᴄᴏʟᴏɴɢ ɴɪ ꜱᴛɪᴄᴋᴇʀ]彡★\n★彡[ᴀᴜ ᴀʜ ᴄᴏʟᴏɴɢ ᴀᴊᴀ ʜᴇʜᴇ]彡★",
+    "█▓▒­░⡷⠂CФLФИG SΓICҜΞЯ ДHH⠐⢾░▒▓█.....",
 ]
 
 
@@ -77,9 +77,9 @@ async def kang(args):
             is_anim = True
             photo = 1
         else:
-            return await args.edit("`File Tidak Didukung AJG!`")
+            return await args.edit("`★彡[ꜰɪʟᴇ ᴛɪᴅᴀᴋ ᴅɪᴅᴜᴋᴜɴɢ ᴀᴊɢ!]彡★`")
     else:
-        return await args.edit("`Gagal Colong Cari Yang Laen!`")
+        return await args.edit("`𓂀 𝔾𝕒𝕘𝕒𝕝 ℂ𝕠𝕝𝕠𝕟𝕘 ℂ𝕒𝕣𝕚 𝕐𝕒𝕟𝕘 𝕃𝕒𝕖𝕟! 𓂀`")
 
     if photo:
         splat = args.text.split()
