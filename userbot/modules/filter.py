@@ -96,7 +96,7 @@ async def remove_a_filter(r_handler):
         await r_handler.edit("`Filter`  **{}**  `doesn't exist`.".format(filt))
     else:
         await r_handler.edit(
-            "`Filter`  **{}**  `was deleted successfully`.".format(filt))
+            "`Filter`  **{}**  `𝖂𝖆𝖘 𝕯𝖊𝖑𝖊𝖙𝖊𝖉 𝕾𝖚𝖈𝖈𝖊𝖘𝖘𝖋𝖚𝖑𝖑𝖞`.".format(filt))
 
 
 @register(outgoing=True, pattern="^.rmbotfilters (.*)")
@@ -134,8 +134,8 @@ async def filters_active(event):
     transact = "`There are no filters in this chat.`"
     filters = get_filters(event.chat_id)
     for filt in filters:
-        if transact == "`There are no filters in this chat.`":
-            transact = "Active filters in this chat:\n"
+        if transact == "`𝕿𝖍𝖊𝖗𝖊 𝖆𝖗𝖊 𝖓𝖔 𝖋𝖎𝖑𝖙𝖊𝖗𝖘 𝖎𝖓 𝖙𝖍𝖎𝖘 𝖈𝖍𝖆𝖙.`":
+            transact = "𝕬𝖈𝖙𝖎𝖛𝖊 𝖋𝖎𝖑𝖙𝖊𝖗𝖘 𝖎𝖓 𝖙𝖍𝖎𝖘 𝖈𝖍𝖆𝖙:\n"
             transact += "`{}`\n".format(filt.keyword)
         else:
             transact += "`{}`\n".format(filt.keyword)
