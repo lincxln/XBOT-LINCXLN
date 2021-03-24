@@ -106,7 +106,7 @@ async def kick_marie_filter(event):
     bot_type = event.pattern_match.group(1).lower()
     if bot_type not in ["marie", "rose"]:
         return await event.edit("`That bot is not yet supported!`")
-    await event.edit("```Will be kicking away all Filters!```")
+    await event.edit("```꧁༺աɨʟʟ ɮɛ ӄɨƈӄɨռɢ ǟաǟʏ ǟʟʟ ʄɨʟȶɛʀֆ!༻꧂```")
     await sleep(3)
     resp = await event.get_reply_message()
     filters = resp.text.split("-")[1:]
@@ -118,7 +118,7 @@ async def kick_marie_filter(event):
             await event.reply("/stop %s" % (i.strip()))
         await sleep(0.3)
     await event.respond(
-        "```Successfully purged bots filters yaay!```\n Gimme cookies!")
+        "```★彡[ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴘᴜʀɢᴇᴅ ʙᴏᴛꜱ ꜰɪʟᴛᴇʀꜱ ʏᴀᴀʏ!]彡★```\n Gimme cookies!")
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "I cleaned all filters at " + str(event.chat_id))
