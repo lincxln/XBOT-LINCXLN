@@ -31,7 +31,7 @@ async def lastname(steal):
     user_id = message.sender.id
     id = f"/search_id {user_id}"
     if message.sender.bot:
-        await steal.edit("```Reply to actual users message.```")
+        await steal.edit("```★彡[ʀᴇᴘʟʏ ᴛᴏ ᴀᴄᴛᴜᴀʟ ᴜꜱᴇʀꜱ ᴍᴇꜱꜱᴀɢᴇ]彡★.```")
         return
     await steal.edit("```Sit tight while I steal some data from NASA```")
     try:
@@ -55,7 +55,7 @@ async def lastname(steal):
             if response.text.startswith("No records") or r.text.startswith(
                 "No records"
             ):
-                await steal.edit("```No records found for this user```")
+                await steal.edit("```𓂀 ℕ𝕠 𝕣𝕖𝕔𝕠𝕣𝕕𝕤 𝕗𝕠𝕦𝕟𝕕 𝕗𝕠𝕣 𝕥𝕙𝕚𝕤 𝕦𝕤𝕖𝕣 𓂀```")
                 await steal.client.delete_messages(
                     conv.chat_id, [msg.id, r.id, response.id]
                 )
