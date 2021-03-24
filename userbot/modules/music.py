@@ -100,19 +100,19 @@ async def _(event):
     reply = await event.get_reply_message()
     if event.pattern_match.group(1):
         query = event.pattern_match.group(1)
-        await event.edit("`Mencari Musik Video..`")
+        await event.edit("`𝕄𝕖𝕟𝕔𝕒𝕣𝕚 𝕄𝕦𝕤𝕚𝕜 𝕍𝕚𝕕𝕖𝕠..`")
     elif reply:
         query = str(reply.message)
-        await event.edit("`Mencari Musik Video..`")
+        await event.edit("`𝕄𝕖𝕟𝕔𝕒𝕣𝕚 𝕄𝕦𝕤𝕚𝕜 𝕍𝕚𝕕𝕖𝕠..`")
     else:
-        await event.edit("`Apa yang harus saya cari?`")
+        await event.edit("`ᴀᴘᴀ ʏᴀɴɢ ʜᴀʀᴜꜱ ꜱᴀʏᴀ ᴄᴀʀɪ?`")
         return
     await getmusicvideo(query)
     l = glob.glob(("*.mp4")) + glob.glob(("*.mkv")) + glob.glob(("*.webm"))
     if l:
-        await event.edit("`OK, Video Musik di Temukan..`")
+        await event.edit("`𝕆𝕂, 𝕍𝕚𝕕𝕖𝕠 𝕄𝕦𝕤𝕚𝕜 𝕕𝕚 𝕋𝕖𝕞𝕦𝕜𝕒𝕟..`")
     else:
-        await event.edit(f"`Maaf Saya Tidak dapat Menemukan` **{query}**")
+        await event.edit(f"`ᴍᴀᴀꜰ ꜱᴀʏᴀ ᴛɪᴅᴀᴋ ᴅᴀᴘᴀᴛ ᴍᴇɴᴇᴍᴜᴋᴀɴ` **{query}**")
         return
     try:
         loa = l[0]
@@ -152,7 +152,7 @@ async def _(event):
                 progress(d, t, event, c_time, "[UPLOAD]", loa)
             ),
         )
-        await event.edit(f"**{query}** `Uploaded Successfully..!`")
+        await event.edit(f"**{query}** `𝕌𝕡𝕝𝕠𝕒𝕕𝕖𝕕 𝕊𝕦𝕔𝕔𝕖𝕤𝕤𝕗𝕦𝕝𝕝𝕪..!`")
         os.remove(thumb_image)
         os.system("rm *.mkv *.mp4 *.webm")
     except BaseException:
@@ -170,7 +170,7 @@ async def _(event):
     await event.edit("```Getting Your Music```")
     async with bot.conversation(chat) as conv:
         await asyncio.sleep(2)
-        await event.edit("`Downloading music taking some times,  Stay Tuned.....`")
+        await event.edit("`ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴍᴜꜱɪᴄ ᴛᴀᴋɪɴɢ ꜱᴏᴍᴇ ᴛɪᴍᴇꜱ,  ꜱᴛᴀʏ ᴛᴜɴᴇᴅ.....`")
         try:
             response = conv.wait_event(
                 events.NewMessage(incoming=True, from_users=752979930)
@@ -184,7 +184,7 @@ async def _(event):
             await bot.send_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
             await event.reply(
-                "```Please unblock @SpotifyMusicDownloaderBot and try again```"
+                "```ᴘʟᴇᴀꜱᴇ ᴜɴʙʟᴏᴄᴋ @SpotifyMusicDownloaderBot ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ```"
             )
             return
         await bot.forward_messages(event.chat_id, respond.message)
