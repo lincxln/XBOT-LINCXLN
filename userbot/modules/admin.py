@@ -540,7 +540,7 @@ async def rm_deletedacc(show):
 
     # Well
     if not admin and not creator:
-        return await show.edit("`I am not an admin here!`")
+        return await show.edit("`𝕾𝖆𝖞𝖆 𝕭𝖚𝖐𝖆𝖓 𝕬𝖉𝖒𝖎𝖓 𝕯𝖎𝖘𝖎𝖓𝖎!`")
 
     await show.edit("`Deleting deleted accounts...\nOh I can do that?!?!`")
     del_u = 0
