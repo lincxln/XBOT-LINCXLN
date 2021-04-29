@@ -4,10 +4,10 @@ RUN mkdir /xnewbie && chmod 777 /xnewbie
 ENV PATH="/xnewbie/bin:$PATH"
 WORKDIR /xnewbie
 
-RUN git clone https://github.com/X-Newbie/XBot-Remix -b alpha /xnewbie
+RUN git clone https://github.com/lincxln/XBOT-LINCXLN -b alpha /xnewbie
 
 #Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/X-Newbie/XBot-Remix/alpha/requirements.txt
+RUN pip3 install -r https://raw.githubusercontent.com/lincxln/XBOT-LINCXLN/alpha/requirements.txt
 
 #
 # Copies session and config(if it exists)
