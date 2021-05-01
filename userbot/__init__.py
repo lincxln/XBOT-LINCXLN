@@ -254,7 +254,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "**🔥 XBOT-REMIX 🔥\n☠️ BERHASIL DIAKTIFKAN ☠️**")
+    await bot.send_message(BOTLOG_CHATID, "**🔥 XBOT-LINCXLN 🔥\n☠️ BERHASIL DIAKTIFKAN ☠️**")
     return
 
 with bot:
@@ -312,7 +312,7 @@ with bot:
         async def handler(event):
             if event.message.from_id != uid:
                 await event.reply(
-                    "I'm [🔥 XBØT 🔥](https://github.com/X-Newbie/XBot-Remix) modules helper...\nplease make your own bot, don't use mine 😋"
+                    "I'm [🔥 XBØT 🔥](https://github.com/lincxln/XBOT-LINCXLN) modules helper...\nplease make your own bot, don't use mine 😋"
                 )
             else:
                 await event.reply(f"`Hey there {ALIVE_NAME}\n\nI work for you :)`")
@@ -327,7 +327,7 @@ with bot:
                 result = builder.article(
                     "Please Use Only With .help Command",
                     text="{}\nTotal loaded modules: {}".format(
-                        "[XBOT-REMIX](https://github.com/X-Newbie/XBot-Remix) modules helper.\n",
+                        "[XBOT-LINCXLN](https://github.com/lincxln/XBOT-LINCXLN) modules helper.\n",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -348,11 +348,11 @@ with bot:
                         [
                             custom.Button.url(
                                 "GitHub Repo",
-                                "https://github.com/X-Newbie/XBot-Remix",
+                                "https://github.com/lincxln/XBOT-LINCXLN",
                             ),
                             custom.Button.url(
                                 "Support",
-                                "https://t.me/UserBotIndo"),
+                                "https://t.me/xxxjahsehdchat"),
                         ],
                     ],
                     link_preview=False,
