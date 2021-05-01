@@ -1,5 +1,5 @@
 {
-  "name": "XBOT REMIX",
+  "name": "XBOT LINCXLN",
   "description": "[XBOT] A modular Telegram userbot running on Python 3.7+ with an sqlalchemy database.",
   "logo": "https://telegra.ph/file/0c5788a2377dfbe83ece6.jpg",
   "keywords": [
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/X-Newbie/XBot-Remix",
+  "repository": "https://github.com/lincxln/XBOT-LINCXLN",
   "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
-  "success_url": "https://t.me/XBOT_SUPPORT",
+  "success_url": "https://t.me/xxxjahsehdchat",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -184,7 +184,7 @@
     },
     "S_PACK_NAME": {
       "description": "change your sticker pack name",
-      "value": "Remix_Packs",
+      "value": "lincxln_Packs",
       "required": true
     },
     "ALIVE_LOGO": {
@@ -194,7 +194,7 @@
     },
     "UPSTREAM_REPO_URL": {
     "description": "set this to your Xbot-Remix fork on GitHub",
-    "value": "https://github.com/X-Newbie/XBot-Remix",
+    "value": "https://github.com/lincxln/XBOT-LINCXLN",
     "required": false
     },
     "USR_TOKEN_UPTOBOX": {
