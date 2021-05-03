@@ -1,6 +1,7 @@
 <p align="center">
-    <img alt="Language" src="https://img.shields.io/github/languages/count/lincxln/XBOT-LINCXLN?style=for-the-badge"></a>
+    <img alt="Language" src="https://img.shields.io/github/languages/count/lincxln/XBOT-LINCXLN?style=for-the-badge">
     <img alt="Last" src="https://img.shields.io/github/last-commit/lincxln/XBOT-LINCXLN/alpha?style=for-the-badge">
+    <img alt="Release" src="https://img.shields.io/github/release-date-pre/lincxln/XBOT-LINCXLN?style=for-the-badge">
     <img alt="Checked" src="https://img.shields.io/github/checks-status/lincxln/XBOT-LINCXLN/alpha?style=for-the-badge">
     <a href="https://travis-ci.com/lincxln/XBOT-LINCXLN.svg?branch=alpha" /></a>
     <a href="https://app.codacy.com/gh/lincxln/XBOT-LINCXLN/dashboard"> <img src="https://img.shields.io/codacy/grade/a8f0747a964e4712818a28d2a7f4edd3?color=blue&logo=codacy&style=for-the-badge" alt="Codacy" /></a>
@@ -10,7 +11,7 @@
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.0-blue?style=for-the-badge&logo=appveyor"/>
     <a href="https://hub.docker.com/r/61818/lincxln/tags?page=1&ordering=last_updated"> <img src="https://img.shields.io/docker/v/61818/lincxln/buster?label=docker%20version&logo=docker&style=for-the-badge" /></a>
    </p>
-<h3 align="center">A modular Telegram userbot running on Python 3.8+ with an sqlalchemy database.</h3>
+<h3 align="center">A modular Telegram userbot running on Python 3.9+ with an sqlalchemy database.</h3>
 <p align="center">&nbsp;</p>
 
 # Based on RaphielGang's [Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane)
