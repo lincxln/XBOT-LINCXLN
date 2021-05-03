@@ -11,7 +11,6 @@ import os
 import io
 import time
 import asyncio
-import shutil
 import json
 import requests
 from os import popen
@@ -632,7 +631,7 @@ async def kbg(remob):
             remove_bg_image.name = "removed_bg.png"
             await remob.client.send_file(
                 remob.chat_id,
-                remove_bg_image,               
+                remove_bg_image,
                 force_document=True,
                 reply_to=message_id)
             await remob.delete()

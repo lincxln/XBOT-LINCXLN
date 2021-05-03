@@ -99,7 +99,7 @@ async def pingme(pong):
                     f"**├╼════════════════════╾**\n"
                     f"**├╼𝐌𝐄𝐍𝐆𝐀𝐊𝐓𝐈𝐅** : {uptime} 🕛\n"
                     f"**└╼════════════════════╾**" % (duration))
-                  
+
 
 @register(outgoing=True, pattern="^.pong$")
 async def pingme(pong):

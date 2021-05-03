@@ -27,7 +27,7 @@ async def typewriter(typew):
     await typew.edit(f"**Woii...**")
     sleep(2)
     await typew.edit("`Ganteng doang`")
-    sleep (2)
+    sleep(2)
     await typew.edit("`Ganteng doang jemput cewe depan gang`")
 # Owner @Si_Dian
 
@@ -50,6 +50,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Tapi chat cowok lebih dari satu`")
 # Owner @Si_Dian
+
 
 @register(outgoing=True, pattern='^.brokn(?: |$)(.*)')
 async def typewriter(typew):
