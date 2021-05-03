@@ -29,40 +29,29 @@
 /**
 ```
 
-## Generate String Session
+## Hasilkan Sesi String
 
-### Or Run on your terminal
+### Atau Jalankan Di Terminal Anda
 
 ```
 wget https://raw.githubusercontent.com/lincxln/XBOT-LINCXLN/alpha/Getstring.sh && bash Getstring.sh
 ```
 <br>
 
-## How To Deploy 👷
+### Klik Gambar Di Bawah Untuk Menerapkan
+[![Deploy](https://coursework.vschool.io/content/images/size/w1000/2018/10/heroku_logo.jpeg)](https://heroku.com/deploy?template=https://github.com/lincxln/XBOT-LINCXLN)
 
-```
-* **[HEROKU](https://www.heroku.com/) Method** 🔧
+#### TERSERAH PILIH YANG MANA ATAS ATAU BAWAH!
 
-  > First get API_KE & API_HASH in my.telegram.org (required)
-
-  > Get String Session on command below run in your terminal (required)
-
-  > Next click Deploy the button below. 
-
-  > Fill in the required fields on heroku
-
-  > Finally turn on the app and check the logs (settings -> view logs) enjoy :)
-```
-
-## <p align="center">Deploy to Heroku Methods</p>
+## <p align="center">Terapkan Ke Metode Heroku</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/lincxln/XBOT-LINCXLN/tree/alpha"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/lincxln/XBOT-LINCXLN/tree/alpha"> <img src="https://img.shields.io/badge/Terapkan%20Ke%20Heroku-blue?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
 
-## Credits
+## Kredit
 *   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
 *   [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
 *   [Mkaraniya](https://github.com/mkaraniya) & [Dev73](https://github.com/Devp73) - OpenUserBot
@@ -78,5 +67,5 @@ wget https://raw.githubusercontent.com/lincxln/XBOT-LINCXLN/alpha/Getstring.sh &
 *   [TeamUserge](https://github.com/UsergeTeam/Userge) - Userge
 *   AND OTHER
 
-## License
+## LISENSI
 Licensed under [Raphielscape Public License](https://github.com/X-Newbie/XBot-Remix/blob/x-sql-extended/LICENSE) - Version 1.d, February 2020
