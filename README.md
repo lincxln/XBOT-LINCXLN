@@ -1,7 +1,7 @@
 <p align="center">
     <img alt="Language" src="https://img.shields.io/github/languages/count/lincxln/XBOT-LINCXLN?style=for-the-badge">
     <img alt="Last" src="https://img.shields.io/github/last-commit/lincxln/XBOT-LINCXLN/alpha?style=for-the-badge">
-    <img alt="Release" src="https://img.shields.io/github/release-date-pre/lincxln/XBOT-LINCXLN?style=for-the-badge">
+    <img alt="Release" src="https://img.shields.io/github/release-date-pre/lincxln/XBOT-LINCXLN?label=RELEASE&style=for-the-badge">
     <img alt="Checked" src="https://img.shields.io/github/checks-status/lincxln/XBOT-LINCXLN/alpha?style=for-the-badge">
     <a href="https://travis-ci.com/lincxln/XBOT-LINCXLN.svg?branch=alpha" /></a>
     <a href="https://app.codacy.com/gh/lincxln/XBOT-LINCXLN/dashboard"> <img src="https://img.shields.io/codacy/grade/a8f0747a964e4712818a28d2a7f4edd3?color=blue&logo=codacy&style=for-the-badge" alt="Codacy" /></a>
