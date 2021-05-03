@@ -7,7 +7,7 @@
     <a href="https://github.com/lincxln/XBOT-LINCXLN/network/members"> <img src="https://img.shields.io/github/forks/lincxln/XBOT-LINCXLN?logo=github&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?label=telethon&logo=pypi&logoColor=white&style=for-the-badge" /></a>
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.0-blue?style=for-the-badge&logo=appveyor"/>
-    <a href="https://hub.docker.com/r/61818/lincxln/tags"> <img src="https://img.shields.io/docker/v/61818/lincxln/groovy?label=docker%20version&logo=docker&style=for-the-badge" /></a>
+    <a href="https://hub.docker.com/r/61818/lincxln/buster"> <img src="https://img.shields.io/docker/v/61818/lincxln/groovy?label=docker%20version&logo=docker&style=for-the-badge" /></a>
    </p>
 
 <h1 align="center"><b>GITHUB PROFILE </b></h1><br>
