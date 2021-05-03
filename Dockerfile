@@ -1,10 +1,10 @@
-FROM alfianandaa/alf:groovy
+FROM 61818/lincxln:buster
 
-RUN mkdir /xnewbie && chmod 777 /xnewbie
-ENV PATH="/xnewbie/bin:$PATH"
-WORKDIR /xnewbie
+RUN mkdir /lincxln && chmod 777 /lincxln
+ENV PATH="/lincxln/bin:$PATH"
+WORKDIR /lincxln
 
-RUN git clone https://github.com/lincxln/XBOT-LINCXLN -b alpha /xnewbie
+RUN git clone https://github.com/lincxln/XBOT-LINCXLN -b alpha /lincxln
 
 #Install python requirements
 RUN pip3 install -r https://raw.githubusercontent.com/lincxln/XBOT-LINCXLN/alpha/requirements.txt
@@ -12,7 +12,7 @@ RUN pip3 install -r https://raw.githubusercontent.com/lincxln/XBOT-LINCXLN/alpha
 #
 # Copies session and config(if it exists)
 #
-COPY ./sample_config.env ./userbot.session* ./config.env* /xnewbie/
+COPY ./sample_config.env ./userbot.session* ./config.env* /lincxln/
 
 #
 # Make open port TCP
