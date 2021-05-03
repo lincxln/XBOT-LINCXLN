@@ -9,13 +9,6 @@
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.0-blue?style=for-the-badge&logo=appveyor"/>
     <a href="https://hub.docker.com/r/61818/lincxln/tags?page=1&ordering=last_updated"> <img src="https://img.shields.io/docker/v/61818/lincxln/buster?label=docker%20version&logo=docker&style=for-the-badge" /></a>
    </p>
-
-<h1 align="center"><b>GITHUB PROFILE </b></h1><br>
-<img src="https://telegra.ph/file/9142e8ab1f494dc7f082d.png" />
-<a href="https://www.reddit.com/user">
-  <img align="right" alt="XNewbie Reddit" width="20px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/reddit.svg" />
-</a>
-
 <h3 align="center">A modular Telegram userbot running on Python 3.8+ with an sqlalchemy database.</h3>
 <p align="center">&nbsp;</p>
 
