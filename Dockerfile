@@ -1,4 +1,4 @@
-FROM 61818/lincxln:buster
+FROM lincxln/xdocker:buster
 
 RUN mkdir /lincxln && chmod 777 /lincxln
 ENV PATH="/lincxln/bin:$PATH"
