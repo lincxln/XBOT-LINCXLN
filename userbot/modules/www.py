@@ -121,11 +121,27 @@ async def pingme(pong):
     await pong.edit("**CROOTSS!\n%sms**" % (duration))
 
 
+@register(outgoing=True, pattern="^.dc$")
+async def neardc(event):
+    """ For .dc command, get the nearest datacenter information. """
+    result = await event.client(functions.help.GetNearestDcRequest())
+    await event.edit(f"Country : `{result.country}`\n"
+                     f"Nearest Datacenter : `{result.nearest_dc}`\n"
+                     f"This Datacenter : `{result.this_dc}`\n\n"
+                     "**List Of Telegram Data Centres:**\n"
+                     "**DC1 : Miami FL, USA**\n"
+                     "**DC2 : Amsterdam, NL**\n"
+                     "**DC3 : Miami FL, USA**\n"
+                     "**DC4 : Amsterdam, NL**\n"
+                     "**DC5 : Singapore, SG**\n")
+
 CMD_HELP.update(
     {"ping": "`.ping`\
     \nUsage: Shows how long it takes to ping your bot.\
     \n\n`.speed`\
     \nUsage: Does a speedtest and shows the results.\
     \n\n`.pong`\
-    \nUsage: Shows how long it takes to ping your bot."
+    \nUsage: Shows how long it takes to ping your bot.\
+    \n\n`.dc`\
+    \nUsage: Shows your telegram datacenter."
      })
